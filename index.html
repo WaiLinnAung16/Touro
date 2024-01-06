@@ -27,57 +27,489 @@
         <!-- Active bar -->
         <span class="active"></span>
       </ul>
-      <!-- CTA Button -->
-      <button class="button">Login</button>
+      <div class="mobile-menu">
+        <!-- CTA Button -->
+        <button class="button">Login</button>
+        <!-- Mobile Menu -->
+        <i class="fa-solid fa-bars mobile-menubar"></i>
+      </div>
     </nav>
     <!-- Hero Section -->
     <section class="hero-container">
       <!-- Left side -->
       <div class="hero-left">
-        <h1 class="hero-text">Explore Beautiful World!</h1>
-        <!-- Search Container -->
-        <div class="search-container">
-          <!-- Location, Date, Price -->
-          <div class="search-inform-container">
-            <div class="search-inform">
-              <p class="search-title">Located in</p>
-              <div class="search-data">
-                <h1 class="search-data-title">Bangladesh</h1>
-                <!-- icon -->
-                <i class="fa-solid fa-chevron-down"></i>
-              </div>
-            </div>
-            <!-- divider -->
-            <span class="divider"></span>
-            <div class="search-inform">
-              <p class="search-title">Date</p>
-              <div class="search-data">
-                <h1 class="search-data-title">Wed,7 Nov</h1>
-                <!-- icon -->
-                <i class="fa-solid fa-chevron-down"></i>
-              </div>
-            </div>
-            <!-- divider -->
-            <span class="divider"></span>
-            <div class="search-inform">
-              <p class="search-title">Price Range</p>
-              <div class="search-data">
-                <h1 class="search-data-title">Bangladesh</h1>
-                <!-- icon -->
-                <i class="fa-solid fa-chevron-down"></i>
-              </div>
-            </div>
-          </div>
-          <!-- Search Btn -->
-          <div class="search-btn">
-            <span>Search</span>
-          </div>
-        </div>
+        <h1 class="hero-text">
+          Explore Beautiful World!
+          <img src="../assets/sparkle.svg" alt="" class="sparkle-icon" />
+        </h1>
       </div>
       <!-- Right side -->
       <div class="hero-right">
         <img src="./assets/girl.png" alt="hero travel girl" class="hero-img" />
+        <div class="circle"></div>
       </div>
     </section>
+    <!-- Search Container -->
+    <div class="search-container">
+      <!-- Location, Date, Price -->
+      <div class="search-inform-container">
+        <div class="search-inform">
+          <p class="search-title">Located in</p>
+          <div class="search-data">
+            <h1 class="search-data-title">Bangladesh</h1>
+            <!-- icon -->
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <!-- divider -->
+        <span class="divider"></span>
+        <div class="search-inform">
+          <p class="search-title">Date</p>
+          <div class="search-data">
+            <h1 class="search-data-title">Wed,7 Nov</h1>
+            <!-- icon -->
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <!-- divider -->
+        <span class="divider"></span>
+        <div class="search-inform">
+          <p class="search-title">Price Range</p>
+          <div class="search-data">
+            <h1 class="search-data-title">Bangladesh</h1>
+            <!-- icon -->
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Search Btn -->
+      <div class="search-btn">
+        <span>Search</span>
+      </div>
+    </div>
+    <!-- Popular Place -->
+    <section class="popular-container">
+      <!-- Navbar -->
+      <div class="popular-nav-container">
+        <h1 class="popular-header">Popular Place</h1>
+        <ul class="menu-container">
+          <li class="menu">Beach</li>
+          <li class="menu">Mountain</li>
+          <li class="menu">Waterfall</li>
+          <li class="menu">Icebergs</li>
+          <li class="menu" style="color: #ff8e4f">View all</li>
+          <span class="active"></span>
+        </ul>
+        <div class="mobile-dropdown">
+          <span>Beach</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+      <!-- Cards -->
+      <div class="cards-container">
+        <!-- Card -->
+        <div class="card-container card-active">
+          <!-- Image -->
+          <div class="card-image-container">
+            <img src="../assets/card-img.jpg" alt="" class="card-image" />
+          </div>
+          <!-- Desc -->
+          <div class="card-desc-container">
+            <!-- Title and loca -->
+            <div class="card-desc-left">
+              <h1 class="card-title">Siasconset Beach</h1>
+              <div class="card-loaction">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="card-loca-text">Island</span>
+              </div>
+            </div>
+            <!-- Rating -->
+            <div class="card-desc-right">
+              <i class="fa-solid fa-star"></i>
+              <span class="rating">4.9</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="card-container">
+          <!-- Image -->
+          <div class="card-image-container">
+            <img src="../assets/card-img.jpg" alt="" class="card-image" />
+          </div>
+          <!-- Desc -->
+          <div class="card-desc-container">
+            <!-- Title and loca -->
+            <div class="card-desc-left">
+              <h1 class="card-title">Siasconset Beach</h1>
+              <div class="card-loaction">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="card-loca-text">Island</span>
+              </div>
+            </div>
+            <!-- Rating -->
+            <div class="card-desc-right">
+              <i class="fa-solid fa-star"></i>
+              <span class="rating">4.9</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="card-container">
+          <!-- Image -->
+          <div class="card-image-container">
+            <img src="../assets/card-img.jpg" alt="" class="card-image" />
+          </div>
+          <!-- Desc -->
+          <div class="card-desc-container">
+            <!-- Title and loca -->
+            <div class="card-desc-left">
+              <h1 class="card-title">Siasconset Beach</h1>
+              <div class="card-loaction">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="card-loca-text">Island</span>
+              </div>
+            </div>
+            <!-- Rating -->
+            <div class="card-desc-right">
+              <i class="fa-solid fa-star"></i>
+              <span class="rating">4.9</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Explore world with us -->
+    <section class="explore-container">
+      <!-- Left -->
+      <div class="explore-left">
+        <img src="../assets/girl.png" alt="" class="hero-img" />
+        <div class="circle"></div>
+      </div>
+      <!-- Right -->
+      <div class="explore-right">
+        <!-- Title -->
+        <h1 class="explore-title">Explore all corners of The world with us</h1>
+        <!-- Para -->
+        <p class="explore-para">
+          Travel is fatal to prejudice, and narrow mindness, And many of our
+          people need it sorely on these accounts. And many of our people need
+          it sorely.
+        </p>
+        <!-- Categories -->
+        <div class="categories">
+          <div class="category">
+            <div class="icon">
+              <i class="fa-solid fa-plane-up"></i>
+            </div>
+            <span>Flight</span>
+          </div>
+          <div class="category">
+            <div class="icon">
+              <i class="fa-solid fa-hotel"></i>
+            </div>
+            <span>Hotel</span>
+          </div>
+          <div class="category">
+            <div class="icon">
+              <i class="fa-solid fa-wifi"></i>
+            </div>
+            <span>Wifi</span>
+          </div>
+          <div class="category">
+            <div class="icon">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <span>Food</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Explore Place -->
+    <section class="popular-container">
+      <!-- Navbar -->
+      <div class="popular-nav-container">
+        <h1 class="popular-header">Explore Place</h1>
+        <ul class="menu-container">
+          <li class="menu">Beach</li>
+          <li class="menu">Mountain</li>
+          <li class="menu">Waterfall</li>
+          <li class="menu">Icebergs</li>
+          <li class="menu" style="color: #ff8e4f">View all</li>
+          <span class="active"></span>
+        </ul>
+        <div class="mobile-dropdown">
+          <span>Beach</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+      <!-- Cards -->
+      <div class="cards-container">
+        <!-- Card -->
+        <div class="card-container">
+          <!-- Image -->
+          <div class="card-image-container">
+            <img src="../assets/card-img.jpg" alt="" class="card-image" />
+          </div>
+          <!-- Desc -->
+          <div class="card-desc-container">
+            <!-- Title and loca -->
+            <div class="card-desc-left">
+              <h1 class="card-title">Siasconset Beach</h1>
+              <div class="card-loaction">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="card-loca-text">Island</span>
+              </div>
+            </div>
+            <!-- Rating -->
+            <div class="card-desc-right">
+              <i class="fa-solid fa-star"></i>
+              <span class="rating">4.9</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="card-container">
+          <!-- Image -->
+          <div class="card-image-container">
+            <img src="../assets/card-img.jpg" alt="" class="card-image" />
+          </div>
+          <!-- Desc -->
+          <div class="card-desc-container">
+            <!-- Title and loca -->
+            <div class="card-desc-left">
+              <h1 class="card-title">Siasconset Beach</h1>
+              <div class="card-loaction">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="card-loca-text">Island</span>
+              </div>
+            </div>
+            <!-- Rating -->
+            <div class="card-desc-right">
+              <i class="fa-solid fa-star"></i>
+              <span class="rating">4.9</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="card-container">
+          <!-- Image -->
+          <div class="card-image-container">
+            <img src="../assets/card-img.jpg" alt="" class="card-image" />
+          </div>
+          <!-- Desc -->
+          <div class="card-desc-container">
+            <!-- Title and loca -->
+            <div class="card-desc-left">
+              <h1 class="card-title">Siasconset Beach</h1>
+              <div class="card-loaction">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="card-loca-text">Island</span>
+              </div>
+            </div>
+            <!-- Rating -->
+            <div class="card-desc-right">
+              <i class="fa-solid fa-star"></i>
+              <span class="rating">4.9</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="card-container">
+          <!-- Image -->
+          <div class="card-image-container">
+            <img src="../assets/card-img.jpg" alt="" class="card-image" />
+          </div>
+          <!-- Desc -->
+          <div class="card-desc-container">
+            <!-- Title and loca -->
+            <div class="card-desc-left">
+              <h1 class="card-title">Siasconset Beach</h1>
+              <div class="card-loaction">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="card-loca-text">Island</span>
+              </div>
+            </div>
+            <!-- Rating -->
+            <div class="card-desc-right">
+              <i class="fa-solid fa-star"></i>
+              <span class="rating">4.9</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="card-container">
+          <!-- Image -->
+          <div class="card-image-container">
+            <img src="../assets/card-img.jpg" alt="" class="card-image" />
+          </div>
+          <!-- Desc -->
+          <div class="card-desc-container">
+            <!-- Title and loca -->
+            <div class="card-desc-left">
+              <h1 class="card-title">Siasconset Beach</h1>
+              <div class="card-loaction">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="card-loca-text">Island</span>
+              </div>
+            </div>
+            <!-- Rating -->
+            <div class="card-desc-right">
+              <i class="fa-solid fa-star"></i>
+              <span class="rating">4.9</span>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="card-container">
+          <!-- Image -->
+          <div class="card-image-container">
+            <img src="../assets/card-img.jpg" alt="" class="card-image" />
+          </div>
+          <!-- Desc -->
+          <div class="card-desc-container">
+            <!-- Title and loca -->
+            <div class="card-desc-left">
+              <h1 class="card-title">Siasconset Beach</h1>
+              <div class="card-loaction">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="card-loca-text">Island</span>
+              </div>
+            </div>
+            <!-- Rating -->
+            <div class="card-desc-right">
+              <i class="fa-solid fa-star"></i>
+              <span class="rating">4.9</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Small Cards -->
+    <section class="container">
+      <div class="status-card">
+        <span class="status-title">24+</span>
+        <p class="status-word">Cities</p>
+      </div>
+      <div class="status-card">
+        <span class="status-title">700+</span>
+        <p class="status-word">Place</p>
+      </div>
+      <div class="status-card">
+        <span class="status-title">200+</span>
+        <p class="status-word">Hotel</p>
+      </div>
+      <div class="status-card">
+        <span class="status-title">2k+</span>
+        <p class="status-word">Review</p>
+      </div>
+    </section>
+    <!-- Our Gallery -->
+    <section class="section-container">
+      <!-- Header -->
+      <div class="section-header">
+        <h1 class="section-title">
+          Our Gallery
+          <span class="section-subtitle">-Share Your Happy Moment</span>
+        </h1>
+        <span style="color: #ff8e4f; font-weight: bold">View all</span>
+      </div>
+      <div class="grid-container">
+        <div class="first border-rounded">
+          <img src="../assets/card-img.jpg" alt="" class="img" />
+        </div>
+        <div class="second border-rounded">
+          <img src="../assets/card-img.jpg" alt="" class="img" />
+        </div>
+        <div class="third border-rounded">
+          <img src="../assets/card-img.jpg" alt="" class="img" />
+        </div>
+        <div class="fourth border-rounded">
+          <img src="../assets/card-img.jpg" alt="" class="img" />
+        </div>
+        <div class="fifth border-rounded">
+          <img src="../assets/card-img.jpg" alt="" class="img" />
+        </div>
+        <div class="sixth border-rounded">
+          <img src="../assets/card-img.jpg" alt="" class="img" />
+        </div>
+      </div>
+    </section>
+    <!-- Social Icon -->
+    <section class="container">
+      <img src="../assets/company-logo.png" alt="" class="company-logo" />
+      <img src="../assets/company-logo.png" alt="" class="company-logo" />
+      <img src="../assets/company-logo.png" alt="" class="company-logo" />
+      <img src="../assets/company-logo.png" alt="" class="company-logo" />
+    </section>
+    <!-- Newsletter -->
+    <section class="newsletter-container">
+      <h1 class="newsletter-title">Sign up to our newsletter</h1>
+      <div class="input-container">
+        <input type="text" placeholder="Enter Your Email Here" />
+        <button>Submit</button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer-container">
+      <!-- left -->
+      <div class="footer-left">
+        <div class="">
+          <!-- Logo -->
+          <div class="logo">
+            <i class="fa-solid fa-globe"></i>
+            <span>Touro</span>
+          </div>
+          <p class="explore-para" style="margin-top: 0.5rem">
+            Travel is fatal to prejudice, and narrow mindedness, And many of our
+            people
+          </p>
+          <div class="social-icons" style="margin-top: 1.5rem">
+            <!-- social icons -->
+            <i class="fa-brands fa-facebook social-icons-active"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+      <!-- right -->
+      <div class="footer-right">
+        <div class="footer-list-contianer">
+          <h3>Quick Link</h3>
+          <ul class="footer-list">
+            <li>Home</li>
+            <li>Category</li>
+            <li>Blog</li>
+            <li>About Us</li>
+          </ul>
+        </div>
+        <div class="footer-list-contianer">
+          <h3>Quick Link</h3>
+          <ul class="footer-list">
+            <li>FAQ's</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Support</li>
+          </ul>
+        </div>
+        <div class="footer-list-contianer">
+          <h3>Contact Us</h3>
+          <ul class="footer-list">
+            <li style="display: flex; align-items: baseline; gap: 1rem">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>342 Blan Stree,Wicoing United State</span>
+            </li>
+            <li style="display: flex; align-items: baseline; gap: 1rem">
+              <i class="fa-solid fa-phone"></i>
+              <span>2412-5467-5378</span>
+            </li>
+            <li style="display: flex; align-items: baseline; gap: 1rem">
+              <i class="fa-solid fa-envelope"></i>
+              <span>touro@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
