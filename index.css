@@ -31,6 +31,10 @@ li {
   all: unset;
 }
 
+.mobile-dropdown {
+  display: none;
+}
+
 .popular-container {
   display: flex;
   flex-direction: column;
