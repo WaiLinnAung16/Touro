@@ -16,7 +16,8 @@
   color: #b4b3b4;
 }
 
-.social-icons-active {
+.social-icon:hover {
+  cursor: pointer;
   color: var(--secondary);
 }
 

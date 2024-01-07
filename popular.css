@@ -1,0 +1,14 @@
+.popular-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-header {
+  font-size: 2rem;
+}
