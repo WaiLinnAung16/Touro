@@ -164,9 +164,9 @@ button {
     width: 100%;
   }
   .circle {
-    padding: 16rem;
+    padding: 14rem;
     top: 0;
-    left: 20%;
+    left: 25%;
   }
 
   /* Nav */
@@ -188,6 +188,11 @@ button {
     width: 48%;
   }
 
+  .mobile-view {
+  display: flex;
+  justify-content: center;
+
+  }
   /* Explore */
   .explore-container {
     flex-direction: column-reverse;
@@ -283,7 +288,6 @@ button {
   .company-logo {
     width: 6rem;
   }
-
 }
 
 @media screen and (max-width: 400px) {

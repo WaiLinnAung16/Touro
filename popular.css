@@ -12,3 +12,7 @@
 .popular-header {
   font-size: 2rem;
 }
+
+.mobile-view{
+  display: none
+}
